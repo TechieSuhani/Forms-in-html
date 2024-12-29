@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS IN HTML</title>
+</head>
+<body>
+    <form action="/server">
+ 
+ <label for="username"> Username: </label>
+ <input type="text" id="username" placeholder="enter your username">
+<br><br>
+
+ <label for="password">Password: </label>
+<input type="password" id="password" placeholder="enter your password">
+<br><br>
+
+<label for="number">number</label>
+<input type="number" id="number" placeholder="enter your number">
+<br><br>
+
+<label for="time">Time</label>
+<input type="time" id="time" >
+<br><br>
+
+<label for="color">Color</label>
+<input type="color" id=color>
+<br><br>
+
+<label for="date">Date</label>
+<input type="date" id="date">
+   <br><br>
+
+   <label for="email">Email</label>
+   <input type="email" id="email">
+   <br><br>
+
+   <label for="reset">Reset</label>
+   <input type="Reset" id="reset">
+   <br><br>
+
+   <label for="file">File</label>
+    <input type="File" id="file">
+    <br><br>
+<hr>
+    Select your favourite fruit:
+    <br><br>
+   <input type="radio" name="fruit" id="apple" value="apple">
+   <label for="apple">Apple</label>
+
+   <input type="radio" name="fruit" id="mango" value="mango">
+   <label for="mango">Mango</label>
+
+   <input type="radio" name="fruit" id="banana" value="banana">
+   <label for="banana">Banana</label>
+
+   <input type="radio" name="fruit" id="orange" value="orange">
+   <label for="orange">Orange</label>
+   <br><br>
+
+   Choose your subjects:
+   <br><br>
+   <input type="checkbox" name="subjects" id="maths" value="maths">
+   <label for="maths">Maths</label>
+
+   <input type="checkbox" name="subjects" id="physics" value="physics">
+   <label for="physics">Physics</label>
+
+   <input type="checkbox" name="subjects" id="statistics" value="statistics">
+   <label for="statistics">Statistics</label>
+
+   <input type="checkbox" name="subjects" id="chemistry" value="chemistry">
+   <label for="chemistry">Chemistry</label>
+   <br><br>
+
+   Choose your profession:
+   <select name="profession" id="profession">
+    <option value="student">Student</option>
+    <option value="employed">Employed</option>
+    <option value="unemployed">Unemployed</option>
+   </select>
+   <br><br>
+
+   <label for="volume">Select your volume level:</label>
+   <input type="range" name="volume" id="volume" min="0" max="100" >
+   <br><br>
+
+   <label for="feedback">Please give your valuable feedback: </label>
+   <textarea name="feedback" id="feedback" row="6" col="10"></textarea>
+   <br><br>
+   <button>Submit</button>
+</form>
+<hr>
+
+<h2>Registration Form</h2>
+<form action="/server">
+    <div>
+ <input type="text" placeholder="First Name" name="fname">
+ <input type="text" placeholder="Last Name" name="lname">
+</div>
+<br><br>
+
+<div>
+    Please select your gender 
+    <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+    </select>
+</div>
+<br><br>
+
+<div>
+    Do you agree to all terms of service?
+    <input type="checkbox" name="yes">
+    <label for="yes">Yes, I agree</label>
+</div>
+<br><br>
+
+<button>Register</button>
+<hr>
+
+<label for="n">Name:</label>
+<input type="text" name="n" id="n">
+<br><br>
+
+Sex:
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">Female</label>
+<br><br>
+
+Country:
+<select name="country" id="country">
+    <option>Select an option</option>
+    <option value="India">India</option>
+    <option value="Nepal">Nepal</option>
+    <option value="USA">USA</option>
+    <option value="Canada">Canada</option>
+</select>
+<br><br> 
+
+<label for="Message">Message:</label>
+<br>
+<textarea name="message" id="message" rows="5" cols="50"></textarea>
+<br><br>
+
+<input type="checkbox" name="sub" id="sub" value="sub">
+<label for="sub">Subscribe?</label>
+<br><br>
+
+<button>Submit</button>
+<hr>
+
+<h3>Feedback Form</h3>
+<label for="name">Name:</label>
+<input type="text" placeholder="Write your name" >
+<br><br>
+
+<label for="email">Email:</label>
+<input type="text" placeholder="Write your email">
+<br><br>
+
+<label for="message">Message:</label>
+<br>
+<textarea name="message" id="message"></textarea>
+<br><br>
+
+Rate us our of 5:
+<br>
+<input type="radio" name="rate" id="1" value="1">
+<label for="1">1</label>
+<br>
+<input type="radio" name="rate" id="2" value=2>
+<label for="2">2</label>
+<br>
+<input type="radio" name="rate" id="3" value="3">
+<label for="3">3</label>
+<br>
+<input type="radio" name="rate" id="4" value="4">
+<label for="4">4</label>
+<br>
+<input type="radio" name="rate" id="5" value="5">
+<label for="5">5</label>
+<br><br>
+
+<button>Send your message!</button>
+<hr>
+</form>
+
+</body>
+</html>
